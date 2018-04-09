@@ -1,0 +1,15 @@
+@font-face{ /*Membuat Font baru ----------------------------------------------------------*/
+  font-family: "Black Jack";
+  /*src: url("../fonts/black_jack.ttf") format("truetype"),*/
+  src: url("../fonts/black_jack.ttf") format("truetype");
+}
+
+#labelLogo1{
+  font-family: sans-serif, cursive; color: red;
+}
+#labelLogo2{
+  font-family: "Black Jack", cursive; color: white; font-size: 30px; margin-left: 10px;
+}
+#betaVersion{
+  color: white; font-family: "Black Jack", cursive; font-size: 17px;
+}

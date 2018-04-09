@@ -1,0 +1,30 @@
+.container{
+  padding: 5px;
+  height: 500px;
+
+/* Start Flexbox */
+  display: flex; /*Start Flexbox */
+  /*justify-content: space-around; /*Horizontal Flex */
+  justify-content: center;                  /*Vertikal*/
+}
+.div1{
+  width: 100%; height: auto; background-color: #692323; float: left;
+}
+.div2{
+  margin-top: 10px; float: left;
+  width: 100%; display: flex; justify-content: space-around;
+}
+.div3{
+  background-color: blue;
+  width: 200px;
+}
+#btn_home{
+  background-image: url(./assets/images/home.png) no-repeat; width: 50px; height: 50px;
+  background: transparent; border: 1px solid #692323;
+}
+#btn_home:focus{
+  background-color: #692323;
+}
+#impactTodolabel{
+  color: #692323; font-weight: bolder; font-style: "Black Jack";
+}

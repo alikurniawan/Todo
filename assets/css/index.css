@@ -1,0 +1,13 @@
+@import "./animate.css";
+
+.border1{
+  border: 1px solid #28A745;
+  border-radius: 8px;
+  height: auto; padding: 10px;
+}
+.pad1{
+  width: 150px; margin-left: 10px;
+}
+.wid{
+  width: 30px;
+}

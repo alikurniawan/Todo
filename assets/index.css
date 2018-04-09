@@ -1,0 +1,84 @@
+@import "./css/body.css";
+@import "./css/font.css";
+@import "./css/flexbox.css";
+
+
+#logo{
+  float: left;
+  border:0px solid black;
+  border-radius: 10px;
+  width: 50px; height: 50px; margin-left: 20px;
+}
+#labelLogo{
+  float: left;
+  margin-top: 30px; margin-left: 10px;
+  color: red;
+}
+#nav{
+  float: left; background-color: red; width: 100%;
+}
+div a{
+  color: white;
+}
+#impactTodo{
+  color: #9C0205; font-weight: bolder; font-size: 30px; margin-top: 20%;
+}
+#inputan{
+  margin-top: 10px; height: auto;
+}
+#block{
+  border: 3px solid #FEE902; width: 269px; height: 28px; font-size: 17px; color: #687780;
+  float: left;
+}
+#btnAdd{
+   width: 120px; height: 35px; background-color: #4F6B79; color: white; font-weight: bolder;
+   font-size: 20px; border: 3px solid #00C41F; float: left; margin-left: 10px;
+}
+#boxIsi{
+  border: 3px solid #3B77DC; width: 270px; height: 300px; margin-top: 5%;
+}
+#isi_1{
+  float: left; background-color: #FBF6FD; margin-top: 5px; margin-right: 5px; margin-left: 5px; width: 95%;
+}
+#isi_2{
+  float: left; background-color: #FBF6FD; margin-top: 5px; margin-right: 5px; margin-left: 5px; width: 95%;
+}
+#labelMenu1{
+  float: left; color: black; margin-left: 5px; font-family: monospace; font-size:12px;
+}
+#btnMenu1{
+  float: right; background-color: transparent; border: 0px;
+}
+#labelMenu2{
+  float: left; color: black; margin-left: 5px; font-family: sans-serif;
+}
+#btnMenu2{
+  float: right;
+}
+#reg{
+  margin-top: 10px; width: 50%;
+}
+#labelFirstlast{
+  float: left;
+}
+#firstLast{
+  float: left; margin-left: 10px;
+}
+#labelEmail{
+  float: left;
+}
+#email{
+  float: left; margin-left: 47px;
+}
+#update{
+  float: left; margin-left: 26%;
+}
+p{
+  margin-top: 5%;
+}
+#homeP{
+  color: red;
+}
+footer{
+  font-size: 12px;
+}
