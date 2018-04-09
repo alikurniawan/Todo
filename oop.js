@@ -30,3 +30,16 @@ tampilkanNamaGelar(){
     return text
   })
 }
+
+//=============API=================================================
+
+var getData = function(){
+  return fetch("https://api.github.com/users/alikurniawan/followers"
+  .then(response => {
+    return response.json();
+  })
+  .then(datas => {
+    return datas;
+  })
+)
+}

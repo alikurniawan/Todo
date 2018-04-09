@@ -1,6 +1,7 @@
 const objInput = document.getElementById("objInput");
 const btnProses = document.getElementById("btnProses");
 const showList = document.getElementById("showList");
+const btnClear = document.getElementById("clearProses");
 
 const searchInput = document.getElementById("searchInput");
 
@@ -92,7 +93,13 @@ function allProses() {
   add();
 }
 
+function clearStorage(){
+  localStorage.clear();
+  showList.innerHTML = "";
+}
+
 btnProses.addEventListener("click", allProses);
+btnClear.addEventListener("click", clearStorage);
 
 getLocalStorage();
 showListed();
